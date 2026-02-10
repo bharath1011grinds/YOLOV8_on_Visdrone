@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Dataset (too large for git)
+data/VisDrone*/
+dataset/images/
+dataset/labels/
+
+# Training outputs (too large)
+runs/train/*/weights/*.pt
+runs/train/*/weights/last.pt
+runs/detect/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# Keep only essential files
+!demo/best.pt
+!dataset/visdrone.yaml
