@@ -37,3 +37,5 @@ flagged/
 # Keep only essential files
 !demo/best.pt
 !dataset/visdrone.yaml
+
+!assets/
